@@ -51,6 +51,6 @@ def results():
 		return render_template('error.html', url=url)
 
 
-#To lauch the test-server, use 'foreman start' instead.
+#To launch the test-server, please use 'foreman start'.
 #if __name__ == '__main__':
 #	app.run(debug=True)
