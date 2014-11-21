@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block body %}
+	<h2>Got {{ url }} in {{ t_total }} ms.</h2>
+	<h3>{{ word_count}} instances of {{ string }}</h3>
+    <form class="pure-form" action="/" method="GET">
+        <fieldset>
+            <button type="submit" class="pure-button pure-button-primary">Search Again...</button>
+        </fieldset>
+    </form>
+{% endblock %}

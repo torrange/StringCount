@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <form class="pure-form" action="/" method="POST">
+        <fieldset>
+            <input type="text" id="url" name="url" placeholder="URL">
+            <input type="text" id="string" name="string" placeholder="String">
+            <button type="submit" class="pure-button pure-button-primary">Let's do this...</button>
+        </fieldset>
+    </form>
+{% endblock %}

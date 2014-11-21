@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+
+body {
+	margin:0;
+	padding:0;
+	float:left;
+	background-color:#2FA461;
+	width:100%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-family: 'Questrial', sans-serif;
+}
+.content {
+	margin: 0;
+	float:left;
+	width: 100%;
+}
+.inner {
+	max-width:960px;
+	margin:0 auto;
+}
+::-webkit-scrollbar {  
+    width: 12px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+}  
+
+/* -- SEARCH -- */
+
+.search {
+	background-color:#FAFAFA;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 2%;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+.search h1 {
+	margin-top:0px;
+	margin-bottom:20px;
+}
+.search input {
+	max-width: 320px;
+	width: 100%;
+	padding: 1%;
+}
+.search .fa-plus {
+	font-size:28px;
+	position: relative;
+	top: 5px;
+	padding: 0 1%
+}
+.search .btn {
+	position: relative;
+	border-radius: 0px;
+	background: #51B351;
+	color: #FAFAFA;
+	top: 20px;
+}
+/* BUSINESS LIST */
+.list {
+	background-color: #FAFAFA;
+	max-height: 350px;
+	overflow-x: hidden;
+	padding: 1%;
+}
+.element {
+	padding: 1%;
+	border: 1px solid #ccc;
+	margin-bottom:10px;
+	width:100%;
+	float:left;
+}
+.element:hover{
+	background-color: #51B351;
+	border-color: #51B351;
+}
+.business-data {
+	float:left;
+}
+.star-icon {
+	float:right;
+}
+/* BUSINESS VIEW */
+.main {
+	max-width: 94%;
+	float:left;
+	padding: 3%;
+	background-color: #FAFAFA;
+}
+.aside2 {
+	padding-left: 0px;
+	width: auto;
+	margin-top: 1px;
+	float:left;
+}
+.social {
+	width:50%;
+	float:left;
+}
+.address {
+	width:50%;
+	float:left;
+}
+.submenu {
+	background:white;
+	padding:2%;
+	float:left;
+}
+.column {
+	text-align: center;
+	color:#FAFAFA;
+	background-color: #212121;
+	padding: 14%;
+	cursor:pointer;
+	width: auto;
+}
+.column i {
+	font-size:23px;
+}
+
+.main2 {
+	width:100%;
+	float:left;
+	margin-top:2%;
+}
+
+.main2 i {
+	font-size:35px;
+}
+
+.description {
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+
+.column:hover {
+	background-color:green;
+}
+
+.social {
+	text-align: right;
+}
+.social i {
+	font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
